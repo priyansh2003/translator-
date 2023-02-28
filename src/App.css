@@ -1,0 +1,75 @@
+body {
+  background-color: #F7F7F7;
+  font-family: Arial, sans-serif;
+}
+
+.translator-container {
+  max-width: 800px;
+  margin: 40px auto;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+}
+
+.input-textarea {
+  width: 100%;
+  height: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  resize: none;
+}
+
+.language-select {
+  width: 100%;
+  height: 50px;
+  font-size: 18px;
+  padding: 10px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  background-color: #F7F7F7;
+}
+
+.translate-button {
+  width: 100%;
+  height: 50px;
+  font-size: 18px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007BFF;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.output {
+  width: 100%;
+  height: 200px;
+  font-size: 18px;
+  padding: 10px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  resize: none;
+  background-color: #F7F7F7;
+}
+
+.error {
+  width: 100%;
+  height: 50px;
+  font-size: 18px;
+  padding: 10px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  background-color: #FF7B7B;
+  color: #FFFFFF;
+  text-align: center;
+}
